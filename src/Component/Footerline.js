@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footerline() {
   return (
     
         <div className="section py-9 sm:px-8 sm:flex sm:justify-between items-center sm:items-center sm:flex-row flex flex-col bg-black">

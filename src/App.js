@@ -4,7 +4,7 @@ import Contact from './Component/Contact';
 import Container from './Component/Container';
 import Navbar from './Component/Navbar';
 import Sections from './Component/Sections';
-import Footer from './Component/footer';
+import Footerline from './Component/Footerline';
 
 
 
@@ -17,7 +17,7 @@ function App() {
       <Container/>
       <Sections/>
       <Contact/>
-      <Footer/>
+      <Footerline/>
      
       
 
