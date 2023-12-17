@@ -148,8 +148,9 @@ export default function Sections() {
                 <img src="microsoft.jpg" className='w-full h-auto rounded-xl' alt="" />
                 <h1 className='text-xl font-medium my-4 text-center text-white'>Microsoft Clone</h1>
                 <div className='space-x-6 pl-2'>
-                <button className='bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2 hover:bg-gray-100 translate-x-4 '>Git hub</button>
-                <button className = 'bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2  hover:bg-gray-100'>Demo</button>
+                <a href='https://github.com/Bagalekeshab/Microsoft'><button className='bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2 hover:bg-gray-100 translate-x-4 '>Git hub</button>
+</a>
+                    <button className = 'bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2  hover:bg-gray-100'>Demo</button>
                 </div>
             </div>
             </div>
@@ -158,7 +159,8 @@ export default function Sections() {
                 <img src="movie.jpg" className='w-full h-auto rounded-xl' alt="" />
                 <h1 className='text-xl font-medium my-4 text-center text-white'>Movie Library (API)</h1>
                 <div className='space-x-6 pl-2'>
-                <button className='bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2 hover:bg-gray-100 translate-x-4 '>Git hub</button>
+                <a href='https://github.com/Bagalekeshab/Movielibrary-Open-Movie'><button className='bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2 hover:bg-gray-100 translate-x-4 '>Git hub</button>
+</a>
                 <button className = 'bg-sky-400 text-black font-medium w-fit px-2 py-1 rounded-xl my-2  hover:bg-gray-100'>Demo</button>
                 </div>
             </div>
