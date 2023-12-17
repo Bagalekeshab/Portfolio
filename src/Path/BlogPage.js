@@ -20,7 +20,7 @@ function BlogPage() {
             <h1 className='text-3xl lg:text-5xl font-medium text-blue-400 '>Tilicho Lake</h1>
             <p className='text-yellow-300 lg:text-1xl px-2  ' >Adventure,Beautiful,Fun </p>
         </div> 
-        <img src="pokhara-valley-nepal.jpg" className='w-96' alt="" />
+        <img src="tilicholake.jpg" className='w-96' alt="" />
 
         
        </div>
