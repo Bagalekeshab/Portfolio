@@ -37,11 +37,11 @@ export default function Contact() {
             
                 
            <form ref={form} onSubmit={sendEmail} className=' flex flex-col lg:h-72 lg:py-1'>
-           <input type='text' placeholder='Name' className='border-2 rounded-xl  px-4  my-1 lg:py-2  outline-blue-900 shadow-lg'></input>
+           <input type='text' placeholder='Name' name='to_name' className='border-2 rounded-xl  px-4  my-1 lg:py-2  outline-blue-900 shadow-lg'></input>
             
-            <input type='email' placeholder='Email' className='border-2 rounded-xl px-4 my-2 lg:py-2 outline-blue-900 shadow-lg '></input>
+            <input type='email' placeholder='Email' name='user_name' className='border-2 rounded-xl px-4 my-2 lg:py-2 outline-blue-900 shadow-lg '></input>
 
-            <textarea placeholder='message' rows={4}  className='textarea rounded-xl  px-2 outline-blue-500 shadow-lg '></textarea>
+            <textarea placeholder='message' name='message' rows={4}  className='textarea rounded-xl  px-2 outline-blue-500 shadow-lg '></textarea>
           
             <button className='bg-blue-800 rounded-xl py-2 px-3 text-white font-medium hover:bg-blue-900 mt-2 lg:mt-5'>Send</button>
            
