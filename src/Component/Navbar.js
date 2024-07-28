@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 
-function Navbar() {
+function Navbar({onChangeColor}) {
+
 
   const [menuOpen, setMenuOpen] = useState(false);
+  
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -45,7 +47,9 @@ function Navbar() {
 
       <div className='hidden md:flex space-x-4 px-10 '>
         <a href='https://github.com/Bagalekeshab'> <ion-icon class='h-6 w-6 cursor-pointer ' name="logo-github" ></ion-icon></a>
-        <ion-icon class='h-6 w-6 cursor-pointer' name="moon-outline"></ion-icon>
+        <ion-icon class='h-6 w-6 cursor-pointer' 
+        onClick={onChangeColor}
+        name="moon-outline"></ion-icon>
       </div>
 
 
