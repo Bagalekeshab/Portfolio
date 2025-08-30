@@ -9,7 +9,7 @@ export default function Container() {
         <div className='left sm:absolute  sm:mx-5 sm:h-52  py-14 lg:h-80 lg:w-2/4'>
             
                 <h1 className='font-medium text-5xl text-center text-blue-900 pl-2 '>KESHAB BAGALE</h1>
-                <p className='text-center py-5 font-medium text-black-900 pl-2'>Developer,Graphic Designer, Photographer</p>
+                <p className='text-center py-5 font-medium text-black-900 pl-2'> Web Developer,Graphic Designer,Devops, Photographer</p>
                 <div className='icon space-x-2 text-center'>
                 < a href='keshab-bagale-cvv.pdf'><button className='bg-black text-white w-auto rounded-2xl px-3 py-1 hover:scale-105 transition duration-400'>Download CV</button>
 </a>
