@@ -48,6 +48,9 @@
     "tailwindcss": "^3.3.5",
     "vite": "^5.0.4"
   },
+   "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
